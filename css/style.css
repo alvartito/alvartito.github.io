@@ -258,7 +258,8 @@ ol {
 	background: #f0f9ff;
 	background: -webkit-gradient(linear, left top, right top, from(#f0f9ff), color-stop(0%, #aa7ad0), to(#d07acd));
 	background: -o-linear-gradient(left, #f0f9ff 0%, #aa7ad0 0%, #d07acd 100%);
-	background: linear-gradient(to right, #f0f9ff 0%, #aa7ad0 0%, #d07acd 100%);
+	/*background: linear-gradient(to right, #f0f9ff 0%, #aa7ad0 0%, #d07acd 100%);*/
+	background: linear-gradient(to right, #EBEBEB 0%, #5e2a5c 0%, #d07acd 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#d07acd', GradientType=1);
 }
 
@@ -921,7 +922,8 @@ ol {
 ========================*/
 
 .page-info-section {
-	background: #ebebeb;
+	/*background: #ebebeb;*/
+	background: linear-gradient(to right, #EBEBEB 0%, #5e2a5c 0%, #d07acd 100%);
 }
 
 .page-info-section.page-info-big {
@@ -1734,7 +1736,7 @@ ol {
 
 .contact-info-warp {
 	position: relative;
-	z-index: 99;
+	/*z-index: 99;*/
 	padding-top: 100px;
 }
 
