@@ -956,11 +956,12 @@ ol {
 
 .site-breadcrumb a {
 	font-size: 18px;
-	color: #909090;
+	color: #ffffff;
 }
 
 .site-breadcrumb span {
-	color: #414141;
+    font-weight: 1400;
+	color: #ffffff;
 }
 
 .site-pagination a,
