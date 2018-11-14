@@ -871,13 +871,13 @@ ol {
 .footer-top-section .container .col-1 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .footer-top-section .container .col-2 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 23%;
+    padding-left: 10%;
 }
 
 .footer-top-section.home-footer {
@@ -2045,8 +2045,8 @@ ol {
 		width: 100%;
 	}
 	.contact-info-warp {
-		padding-top: 0;
-		margin-bottom: 100px;
+		padding-top: 40px;
+		margin-bottom: 0px;
 	}
 	.categorie-filter-warp .cf-right {
 		float: none;
