@@ -870,13 +870,14 @@ ol {
 .footer-top-section .container .col-1 {
     flex: 0 0 50%;
     max-width: 50%;
+    padding-left: 1%;
 }
 
 .footer-top-section .container .col-2 {
     flex: 0 0 50%;
     max-width: 50%;
+    padding-left: 23%;
 }
-
 
 .footer-top-section.home-footer {
 	padding-bottom: 0;
@@ -890,7 +891,7 @@ ol {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #fff;
-	margin-bottom: 57px;
+	margin-bottom: 5%;
 	letter-spacing: -0.2px;
 }
 
@@ -944,6 +945,7 @@ ol {
 }
 
 .footer-section .copyright {
+    text-align: center;
 	color: #505050;
 	margin-bottom: 0;
 	line-height: normal;
