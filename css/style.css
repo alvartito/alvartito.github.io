@@ -176,7 +176,6 @@ button {
   Helper CSS
 -----------------------*/
 
-
 .section-title {
 	text-align: center;
 	margin-bottom: 50px;
@@ -718,7 +717,7 @@ button {
 .product-filter {
 	list-style: none;
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 }
 
 .product-filter li {
@@ -754,7 +753,7 @@ button {
 
 .product-item {
 	margin-bottom: 50px;
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    /*box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);*/
 }
 
 .product-item figure {
@@ -944,29 +943,29 @@ button {
   Footer Top section
 ---------------------*/
 
+.page-area .col-1{
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: justify;
+    padding-bottom: 3%;
+}
+
 .footer-top-section {
     padding-top: 3%;
     background: #282828;
 }
 
-.footer-top-section .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .footer-top-section .container .col-1 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .footer-top-section .container .col-2 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 10%;
+    padding-left: 8%;
+    text-align: end;
 }
 
 .footer-top-section.home-footer {
@@ -1014,7 +1013,7 @@ button {
 }
 
 .about-widget .footer-logo {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .about-widget p {
@@ -2077,15 +2076,15 @@ button {
 		cursor: pointer;
 	}
 	.main-menu {
-		display: none;
-		position: absolute;
-		width: calc(100% - 30px);
-		top: 100%;
-		margin-top: 20px;
-		left: 15px;
-		background: #fff;
-		-webkit-box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
-		box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
+		/*display: none;*/
+        position: absolute;
+        width: 33%;
+        top: 100%;
+        margin-top: -85px;
+        left: 66%;
+        background: #fff;
+        -webkit-box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
 	}
 	.main-menu li {
 		display: block;
