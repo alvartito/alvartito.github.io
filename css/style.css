@@ -359,9 +359,8 @@ button {
 
 .site-logo {
     padding-top: 0;
-    float: left;
-    margin-left: 15%;
 }
+
 .nav-switch {
 	display: none;
 }
@@ -370,7 +369,7 @@ button {
 	list-style: none;
 	margin: 3% auto;
 	display: block;
-	float: right;
+	float: left;
 	margin-right: 15%;
 }
 
@@ -2073,11 +2072,11 @@ button {
 	}
 	.nav-switch {
 		display: block;
-		float: right;
+		float: left;
 		font-size: 26px;
-		margin-left: 23px;
+		margin-left: 10px;
 		color: #fff;
-		padding-top: 3px;
+		padding-top: 0px;
 		cursor: pointer;
 	}
 	.main-menu {
