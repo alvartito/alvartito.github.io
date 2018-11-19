@@ -2,6 +2,11 @@
     margin: 0 auto;
 }
 
+#unique-product-area {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
 .page-content{
 	text-align: center;
 	margin-bottom: 50px;
