@@ -1,0 +1,72 @@
+/*------------------
+  Footer Top section
+---------------------*/
+
+.page-area .col-1{
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: justify;
+    padding-bottom: 3%;
+}
+
+.footer-top-section {
+    padding-top: 1%;
+    background: #282828;
+}
+
+.footer-top-section .container .col-1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 5px;
+}
+
+.footer-top-section .container .col-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 5px;
+    text-align: end;
+}
+
+.footer-top-section.home-footer {
+	padding-bottom: 0;
+}
+
+.footer-widget {
+	margin-bottom: 25px;
+}
+
+.footer-widget .fw-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 18px;
+    letter-spacing: -0.2px;
+    color: #fff;
+}
+
+.footer-widget .text-box p {
+	margin-bottom: 18px;
+}
+
+.footer-widget .text-box p:last-child {
+	margin-bottom: 0;
+}
+
+.about-widget .footer-logo {
+	margin-bottom: 20px;
+}
+
+/*------------------
+  Footer section
+---------------------*/
+
+.footer-section {
+	background: #222222;
+	padding: 12px;
+}
+
+.footer-section .copyright {
+    text-align: center;
+	color: #505050;
+	margin-bottom: 0;
+	line-height: normal;
+}

@@ -1,0 +1,166 @@
+
+/*------------------
+  Contact page
+---------------------*/
+
+.contact-title {
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 1px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+	width: 100%;
+	border: none;
+	background: #ebebeb;
+	font-size: 14px;
+	height: 52px;
+	margin-bottom: 23px;
+	color: #414141;
+	padding: 5px 20px;
+}
+
+.contact-form textarea {
+	margin-top: 5px;
+	height: 197px;
+	padding: 20px 20px;
+}
+
+.contact-form .site-btn {
+	font-size: 16px;
+	background: #b09d81;
+	padding: 20px 30px;
+	min-width: 215px;
+}
+
+.map-area {
+	height: 661px;
+	background: #ddd;
+	position: relative;
+	margin-top: -565px;
+}
+
+.map {
+	height: 100%;
+}
+
+.contact-info-warp {
+	position: relative;
+	padding-top: 40px;
+}
+
+.contact-warp {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: table;
+	z-index: 99;
+}
+
+.contact-warp .cw-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contact-card {
+    width: 336px;
+    padding: 60px 55px 5px;
+    background: #b09d81;
+    display: block;
+    margin: auto;
+}
+
+.contact-info {
+	margin-bottom: 40px;
+}
+
+.contact-info h4 {
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.contact-info p {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+.col-md-6, .col-md-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.site-btn {
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding: 12px 30px;
+	min-width: 138px;
+	font-weight: 500;
+	border: none;
+	background: #414141;
+	cursor: pointer;
+	line-height: normal;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.site-btn:hover {
+	color: #fff;
+}
+
+.site-btn.btn-line {
+	background: transparent;
+	border: 2px solid #414141;
+	color: #414141;
+	padding: 12px 20px;
+}
+
+.site-btn.btn-line:hover {
+	background: #b09d81;
+	border: 2px solid #b09d81;
+	color: #fff;
+}
+
+button {
+    border-radius: 0;
+}
+
+button, select {
+    text-transform: none;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
